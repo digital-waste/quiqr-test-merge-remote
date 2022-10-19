@@ -1,7 +1,6 @@
 - key: Content
   title: Content
   menuItems:
-    - key: frontpage
     - key: pages
     - key: posts
 

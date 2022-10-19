@@ -1,6 +1,6 @@
 baseURL = "/"
-author = "Pim Snel"
-copyright = "Copyright © 2021, Quiqr.org"
+author = "Steve Francia"
+copyright = "Copyright © 2008–2021, Steve Francia, The lee.so, and Pim Snel; all rights reserved."
 paginate = 3.0
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -9,12 +9,12 @@ ignoreErrors = [
   "error-remote-getjson"
 ]
 theme = "Paper"
-title = "Quiqr"
+title = "Paper"
 
 [params]
-twitter = "quiqrapp"
-github = "quiqr"
-instagram = ""
+twitter = "nanxiaobei"
+github = "nanxiaobei"
+instagram = "nan.xiaobei"
 
 [markup]
 
@@ -26,40 +26,10 @@ instagram = ""
 [menu]
 
   [[menu.main]]
-  identifier = "hugoconf"
-  name = "Hugo Conf 2022"
-  url = "/page/hugoconf/"
+  identifier = "about"
+  name = "About"
+  url = "/about/"
   weight = 10.0
-
-  [[menu.main]]
-  identifier = "download"
-  name = "Download"
-  url = "/page/download"
-  weight = 0.0
-
-  [[menu.main]]
-  identifier = "documentation"
-  name = "Documentation"
-  url = "https://book.quiqr.org/"
-  weight = 0.0
-
-  [[menu.main]]
-  identifier = "templates"
-  name = "Templates"
-  url = "https://github.com/quiqr/quiqr-community-templates"
-  weight = 0.0
-
-  [[menu.main]]
-  identifier = "community"
-  name = "Community"
-  url = "/page/community"
-  weight = 0.0
-
-  [[menu.main]]
-  identifier = "screenshots"
-  name = "Screenshots"
-  url = "/page/screenshots"
-  weight = 0.0
 
 [taxonomies]
 category = "categories"

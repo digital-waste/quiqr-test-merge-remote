@@ -1,15 +1,21 @@
 - dataformat: yaml
   description: Pages like about, etc...
-  folder: content/page
+  folder: content/
   itemtitle: Page
   key: pages
   title: Pages
   hideIndex: true
-  includeSubdirs: true
+  includeSubdirs: false
   extension: md
   fields:
     - key: title
       title: Title
+      type: string
+    - key: date
+      title: Date
+      type: date
+    - key: author
+      title: Author
       type: string
     - key: description
       title: Description
