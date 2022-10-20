@@ -9,7 +9,7 @@ ignoreErrors = [
   "error-remote-getjson"
 ]
 theme = "Paper"
-title = "Paper from macos"
+title = "Paper from linux"
 
 [params]
 twitter = "nanxiaobei"
